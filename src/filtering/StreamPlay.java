@@ -25,11 +25,11 @@ public class StreamPlay {
 		List<Integer> mod = int_values.stream().map(x -> x * x).collect(Collectors.toList());
 		System.out.println(mod);
 
-		List<String> fooList = Arrays.asList("goo", "boo", "poo", "too", "foo", "bar", "baz");
+		List<String> fooList = Arrays.asList("goo", "boo", "poo", "too", "foo", "bar", "baz", "aoo", "gato");
 		List<String> result = fooList.stream()
 				.filter(s -> s.contains("g") || s.contains("a") || s.contains("t"))
 				.map(String::toUpperCase)
-				.limit(2)
+				.limit(3)
 				.collect(Collectors.toList());
 
 		System.out.println(result.toString());

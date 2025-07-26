@@ -13,7 +13,7 @@ public class FilterExamples {
 				IntStream.rangeClosed(1, 10) // numbers 1-10
 				.filter(x -> x % 2 == 0) // only even ints have remainder of 0
 				.map(x -> x * 3) // multiply each value of "x" by 3
-				.sum()); // finally sum up all those values into a total
+				.sum()); // finally sum up all those values into a total of 90
 
 	}
 

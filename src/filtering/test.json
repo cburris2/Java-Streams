@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "description": "This file contains examples of Java Streams for filtering and printing operations.",
+    "files": [
+        {
+        "path": "src/filtering/FilterExamples.java",
+        "description": "Demonstrates filtering and mapping operations on IntStream."
+        },
+        {
+        "path": "src/filtering/FindAndReplaceContent.java",
+        "description": "Shows how to find and replace content in a file."
+        },
+        {
+        "path": "src/printing/PrintoutStreams.java",
+        "description": "Illustrates various printing operations using IntStream."
+        }
+    ]
+}
